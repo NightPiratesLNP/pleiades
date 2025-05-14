@@ -81,3 +81,18 @@ border-style: solid;
   text-align: center;
 }
 
+#github:hover {
+  color: #5052ff;
+}
+
+#discord:hover {
+color: #5052ff;
+}
+
+#github:active {
+  color: aquamarine;
+}
+
+#discord:active {
+  color: aquamarine;
+}
