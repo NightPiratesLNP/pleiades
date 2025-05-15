@@ -11,6 +11,8 @@
 </head>
 
 <body id="body">
+  <script src="scripts/music.js"></script>
+  <script src="scripts/kar.js"></script>
     <div class="menu">
        <h3 id="pleiades">P L E İ A D E S</h3>
        <h4 id="alcyone">Alcyone</h4>
@@ -28,27 +30,6 @@
           <source src="assets/music.mp3" type="audio/mp3">
           Tarayiciniz ses öğesini desteklemiyor.
          </audio>
-
-        <script>
-
-          function createSnowflake() {
-          const snowflake = document.createElement("div");
-          snowflake.classList.add("snowflake");
-          snowflake.textContent = "❄";
-          snowflake.style.left = Math.random() * window.innerWidth + "px";
-          snowflake.style.fontSize = Math.random() * 10 + 10 + "px";
-          snowflake.style.animationDuration = Math.random() * 5 + 5 + "s";
-          document.body.appendChild(snowflake);
-
-           setTimeout(() => {
-           snowflake.remove();
-          }, 10000);
-        }
-
-        setInterval(createSnowflake, 200);
-
-
-</script>
 
 </body>
 
